@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Calculadora Cuota Mensual</title>
+</head>
+<body>
+    <main>
+        <h1>Calculadora Cuota Mensual</h1>
+        <section>
+            <article>
+                <p>Nombre</p>
+                <input type="text" id="nombre" placeholder="Camilo" required/>
+                <p>Suma de dinero</p>
+                <input type="number" id="prestamo" placeholder="2000000"/>
+                <p>Cantidad de meses</p>
+                <input type="number" placeholder="12" id="meses"/>
+                <p>Tasa de interés</p>
+                <input type="text" placeholder="20%" id="interes"/>
+                <textarea id="resultado" cols="30" rows="10" autocomplete="off"></textarea>
+                <button id="enviar">Enviar</button>
+            </article>
+        </section>
+    </main>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
